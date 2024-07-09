@@ -1,0 +1,20 @@
+ HR Analytics Dashboard
+
+--PreProcessing--
+1. To analyze, age groups and salary groups were created from Age and Salary columns
+2. Duplicates were removed from the employee id , blank columns were removed from YearAtCompany column
+3. YearWithCountManager column was removed 
+
+--Analysis--
+
+1. We found out thar Male attr(145) were higher than female attr(85) with total 16% of Attr in Org
+2. Life science(38%) and medical employees(25%) found with highest attr%
+3. Employee with age > 35 years contributed to highest attr
+4. Lab Technicians(60), Research scientists(44) and Sales executives/representatives(88) got attributted most 
+5. Salary with Rs.5000 and below topped the attr chart
+6. Employee working since 1year, 5years and 10years left the job at most 
+
+--Conclusion--
+* Consider focusing more on Male employees having age >= 35 Years and completed education in field of Life science and medical -> While Interview 
+* Need to have one-on-one feedback with Lab Tech, Sales department and Research scientists to understand the Attrition reasons -> Check with emp the with respective Manager
+* Focusing on perks/benifts or salary hike for employees having salary <= Rs5000/- might decrease the attr. Also take a note of carrer guidance and specials perks for employees completing 1 year in org.
